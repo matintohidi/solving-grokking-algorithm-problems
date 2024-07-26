@@ -1,4 +1,4 @@
-const binerySearch = (list : Array<number> , item : number) => {
+const binerySearch = (list : number[] , item : number) => {
     let low : number = 0;
     let high : number = list.length - 1
         
